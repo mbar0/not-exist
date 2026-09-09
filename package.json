@@ -1,0 +1,39 @@
+{
+  "name": "not-exist",
+  "version": "0.1.0",
+  "description": "Check whether packages do not exist in an npm registry.",
+  "type": "module",
+  "exports": {
+    "types": "./src/index.d.ts",
+    "import": "./src/index.js"
+  },
+  "bin": {
+    "not-exist": "./bin/not-exist.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbar0/not-exist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbar0/not-exist/issues"
+  },
+  "homepage": "https://github.com/mbar0/not-exist#readme",
+  "keywords": [
+    "npm",
+    "registry",
+    "package",
+    "availability"
+  ],
+  "author": "mbar0",
+  "license": "MIT"
+}
