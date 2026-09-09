@@ -8,7 +8,7 @@
     "import": "./src/index.js"
   },
   "bin": {
-    "not-exist": "./bin/not-exist.js"
+    "not-exist": "bin/not-exist.js"
   },
   "files": [
     "bin",
